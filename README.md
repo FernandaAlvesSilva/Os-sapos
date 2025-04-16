@@ -19,6 +19,10 @@ Tema livre — escolhi os sapos como foco principal, trazendo curiosidades de fo
 - **index.html**: Página inicial com introdução ao tema  
 - **music.html**: Página com curiosidades ou conteúdo complementar (como música ou interação temática)
 
+## 🚀 Como visualizar
+
+Você pode visualizar o projeto diretamente [aqui](https://os-sapos.vercel.app/)
+
 ## 🛠️ Tecnologias Utilizadas  
 - HTML5  
 - CSS3  
