@@ -2,50 +2,64 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Início</title>
 </head>
 <body>
-    <header class="header">
-        <a href="/index.html" class="logo">
-            Os Sapos
-        </a>
-            <!-- Ícones de menu e close -->
-            <input type="checkbox" id="check" class="check" >
-            <label for="check" class="icons">
-                <i class="fas fa-bars" id="menu-icon"></i>
-                <i class="fas fa-times" id="close-icon"></i>
-            </label>
-        <nav class="navbar" id="navbar">
-            <a href="/index.html">Início</a>
-            <a href="/pages/music.html">Música</a>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <h2>Tudo Sobre o Sapo: Curiosidades, Hábitos e o Ciclo da Vida</h2>
-            <p>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Os Sapos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/music.html">Música</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<main>
+    <div class="spacer" style="height: 60px;"></div>
+    <section class="hero text-center py-5  mb-4">
+        <div class="container">
+            <h2 class="display-5 fw-bold">Tudo Sobre o Sapo: Curiosidades, Hábitos e o Ciclo da Vida</h2>
+            <p class="lead">
                 Você já ouviu o som de um sapo à noite, perto de um lago ou depois da chuva? 
                 Esses animais curiosos e saltadores fazem parte do grupo dos anfíbios e vivem em ambientes úmidos. 
                 Neste post, você vai descobrir onde os sapos vivem, o que comem, como nascem e por que são tão importantes para a natureza.
             </p>
-            <img src="/css/img/sapo_um.png" alt="sapo sentado">
-            <div class="difer">
-                <p>Publicado por: Fernanda Alves | Data: 13 de Novembro de 2023</p>
+            <img src="/css/img/sapo_um.png" alt="sapo sentado" class="img-fluid rounded my-4">
+            <div class="difer text-muted">
+                <p>Publicado por: <strong>Fernanda Alves</strong> | Data: <em>13 de Novembro de 2023</em></p>
             </div>
-        </section>
-        <section class="saps">
-            <h3>Onde vivem os sapos?</h3>
+        </div>
+    </section>
+    <section class="saps py-4">
+        <div class="container">
+            <h3 class="fw-bold">Onde vivem os sapos?</h3>
             <p>
                 Os sapos gostam de lugares úmidos, como brejos, lagos, rios e até mesmo jardins com bastante vegetação. 
                 Isso porque sua pele é muito fina e precisa estar sempre molhada para que eles possam respirar direito. 
                 Sim, eles respiram também pela pele! Por isso, você raramente vai ver um sapo em locais secos ou com muito sol.
             </p>
-        </section>
-        <section class="saps">
-            <h3>Como são os sapos?</h3>
+        </div>
+    </section>
+    <section class="saps py-4 ">
+        <div class="container">
+            <h3 class="fw-bold">Como são os sapos?</h3>
             <p>
                 Os sapos têm corpo pequeno, pernas traseiras longas e fortes (ótimas para saltar), e olhos grandes e saltados que os ajudam a enxergar muito bem, principalmente à noite. 
                 Sua pele geralmente é rugosa e úmida, o que pode assustar algumas pessoas, mas é essencial para sua sobrevivência.
@@ -54,16 +68,20 @@
                 Alguns sapos têm glândulas que liberam uma substância viscosa, como forma de defesa contra predadores. 
                 Apesar disso, a maioria das espécies não é perigosa para os seres humanos.
             </p>
-        </section>
-        <section class="saps">
-            <h3>O que os sapos comem?</h3>
+        </div>
+    </section>
+    <section class="saps py-4">
+        <div class="container">
+            <h3 class="fw-bold">O que os sapos comem?</h3>
             <p>
                 Esses bichinhos são carnívoros e adoram caçar insetos. Mosquitos, formigas, grilos e até pequenas aranhas fazem parte do cardápio. 
                 Eles usam a língua longa e pegajosa para capturar a presa rapidamente. Isso ajuda, inclusive, no controle de pragas em lavouras e jardins.
             </p>
-        </section>
-        <section class="saps">
-            <h3>Por que o sapo canta?</h3>
+        </div>
+    </section>
+    <section class="saps py-4 ">
+        <div class="container">
+            <h3 class="fw-bold">Por que o sapo canta?</h3>
             <p>
                 O famoso "coaxar" do sapo é mais do que um som divertido: é a forma que os machos usam para chamar as fêmeas durante a época de reprodução. 
                 O canto é mais comum nas noites quentes e chuvosas, quando os sapos estão mais ativos.
@@ -72,9 +90,11 @@
                 Cada espécie tem seu próprio tipo de canto, que pode ser alto, grave, curto ou repetitivo. 
                 E quanto mais alto o som, maior a chance de atrair uma parceira.
             </p>
-        </section>
-        <section class="saps">
-            <h3>Como nasce um sapo?</h3>
+        </div>
+    </section>
+    <section class="saps py-4">
+        <div class="container">
+            <h3 class="fw-bold">Como nasce um sapo?</h3>
             <p>
                 O ciclo de vida do sapo é um verdadeiro espetáculo da natureza. Tudo começa com os ovos, que são colocados na água. 
                 Desses ovos nascem os girinos, que parecem pequenos peixinhos com cauda. Aos poucos, os girinos crescem, perdem a cauda e desenvolvem pernas e pulmões. 
@@ -83,9 +103,11 @@
             <p>
                 Quando completam essa mudança, eles se tornam sapos adultos, prontos para viver tanto na terra quanto na água.
             </p>
-        </section>
-        <section class="saps">
-            <h3>Por que os sapos são importantes?</h3>
+        </div>
+    </section>
+    <section class="saps py-4 ">
+        <div class="container">
+            <h3 class="fw-bold">Por que os sapos são importantes?</h3>
             <p>
                 Além de ajudar no controle de insetos, os sapos são excelentes indicadores ambientais. 
                 Se há muitos sapos em um local, é sinal de que o ambiente está saudável. 
@@ -95,13 +117,20 @@
                 Proteger os sapos e seus habitats é uma forma de cuidar do planeta. 
                 Eles fazem parte da grande teia da vida e têm um papel essencial nos ecossistemas.
             </p>
-        </section>
-    </main>
-    <footer>
-            <div class="fot">
-                <p>COPYRIGHT &copy; 2023 Os Sapos.</p>
-                <p>Developed by: Fernanda Alves</p>
-            </div>
-    </footer>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="containerbx text-center">
+        <p class="mb-0 footer-p">© 2023 Os Sapos. Todos os direitos reservados.</p>
+        <p class="mb-0 footer-p">Desenvolvido por Fernanda Alves</p>
+        <p class="mt-2 footer-p">
+            <a href="https://github.com/FernandaAlvesSilva" target="_self"><i class="bi bi-github"></i></a>  
+            <a href="https://www.linkedin.com/in/fernanda-alves-605a76242/" target="_self"><i class="bi bi-linkedin"></i></a>
+        </p>
+    </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -2,43 +2,54 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/style.css">
     <title>Música</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <a href="/index.html" class="logo">
-            Os Sapos
-        </a>
-            <!-- Ícones de menu e close -->
-            <input type="checkbox" id="check" class="check" >
-            <label for="check" class="icons">
-                <i class="fas fa-bars" id="menu-icon"></i>
-                <i class="fas fa-times" id="close-icon"></i>
-            </label>
-        <nav class="navbar" id="navbar">
-            <a href="/index.html">Início</a>
-            <a href="/pages/music.html">Música</a>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <h2>Quem nunca cantou Sapo Cururu?</h2>
-            <p>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Os Sapos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/music.html">Música</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<main>
+    <div class="spacer" style="height: 60px;"></div>
+    <section class="hero text-center py-5 ">
+        <div class="container">
+            <h2 class="mb-4">Quem nunca cantou Sapo Cururu?</h2>
+            <p class="lead">
                 A cantiga <strong>Sapo Cururu</strong> é uma daquelas músicas que fazem parte da infância de muita gente. 
                 Popular entre as crianças e frequentemente usada em escolas e creches, essa música simples e divertida atravessa gerações com sua melodia fácil e letra curiosa.
             </p>
-            <img src="/css/img/sapo_dois.png" alt="sapo sentado">
-            <div class="difer">
-                <p>Publicado por: Fernanda Alves | Data: 13 de Novembro de 2023</p>
+            <img src="/css/img/sapo_dois.png" alt="sapo sentado" class="img-fluid my-4">
+            <div class="difer text-muted">
+                <p>Publicado por: <strong>Fernanda Alves</strong> | Data: <em>13 de Novembro de 2023</em></p>
             </div>
-        </section>
-        <section class="sap1">
-            <h3>Letra da música</h3>
-            
-            <p>
+        </div>
+    </section>
+    <section class="sap1 py-5">
+        <div class="container">
+            <h3 class="mb-4">Letra da música</h3>
+            <p class="fs-5 line">
                 Sapo cururu<br>
                 Na beira do rio<br>
                 Quando o sapo grita, ó maninha<br>
@@ -48,9 +59,11 @@
                 Fazendo rendinha, ó maninha<br>
                 Pro seu casamento
             </p>
-        </section>
-        <section class="saps">
-            <h3>Origem da cantiga</h3>
+        </div>
+    </section>
+    <section class="saps py-5 ">
+        <div class="container">
+            <h3 class="mb-4">Origem da cantiga</h3>
             <p>
                 A origem de Sapo Cururu não é muito clara, mas é considerada uma cantiga tradicional brasileira. 
                 Sua melodia e temática lembram as modas de viola e a cultura caipira, sendo muito cantada em festas juninas e rodas de música infantil.
@@ -58,35 +71,43 @@
             <p>
                 Como muitas canções populares, ela foi transmitida oralmente ao longo dos anos, o que explica a existência de variações na letra de uma região para outra.
             </p>
-        </section>
-        <section class="saps">
-            <h3>Por que essa música é tão importante?</h3>
+        </div>
+    </section>
+    <section class="saps py-5">
+        <div class="container">
+            <h3 class="mb-4">Por que essa música é tão importante?</h3>
             <p>
                 Além de entreter, Sapo Cururu é uma excelente ferramenta para o desenvolvimento infantil. 
                 Ela estimula a memória, o ritmo, a coordenação e a linguagem das crianças. 
                 Também serve como ponte para o contato com a cultura popular brasileira, resgatando tradições simples e afetivas.
             </p>
-        </section>
-        <section class="saps">
-            <h3> Conclusão 
-
-            </h3>
+        </div>
+    </section>
+    <section class="saps py-5 ">
+        <div class="container">
+            <h3 class="mb-4">Conclusão</h3>
             <p>
                 Sapo Cururu é muito mais que uma simples canção infantil - é um pedacinho da cultura brasileira que resiste ao tempo. 
                 Seja nas brincadeiras de rua, nas escolas ou nas apresentações artísticas, ela continua encantando crianças e adultos, 
                 mantendo viva a riqueza do nosso folclore.
             </p>
-            <p>
-                <i>Gostou desse conteúdo?
-                Acompanhe nosso blog para mais histórias sobre música e cultura brasileira!</i>
+            <p class="fst-italic">
+                Gostou desse conteúdo? Acompanhe nosso blog para mais histórias sobre música e cultura brasileira!
             </p>
-        </section>
-    </main>
-    <footer>
-        <div class="fot">
-            <p>COPYRIGHT &copy; 2023 Os Sapos.</p>
-            <p>Developed by: Fernanda Alves</p>
         </div>
-    </footer>
+    </section>
+</main>
+<footer class="footer">
+    <div class="containerbx text-center">
+        <p class="mb-0 footer-p">© 2023 Os Sapos. Todos os direitos reservados.</p>
+        <p class="mb-0 footer-p">Desenvolvido por Fernanda Alves</p>
+        <p class="mt-2 footer-p">
+            <a href="https://github.com/FernandaAlvesSilva" target="_self"><i class="bi bi-github"></i></a>  
+            <a href="https://www.linkedin.com/in/fernanda-alves-605a76242/" target="_self"><i class="bi bi-linkedin"></i></a>
+        </p>
+    </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
