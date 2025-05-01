@@ -323,7 +323,7 @@ section{
     }
 
     .saps p{
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
 
@@ -346,7 +346,9 @@ section{
         align-items: center;
     }
 
-
+    p{
+        font-size: 1rem;
+    }
     
 
 }
